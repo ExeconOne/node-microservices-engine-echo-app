@@ -1,7 +1,8 @@
 import { dbInit } from './db/index.mjs';
 
 export default (app, basePath, appDb, logger) => {
-    console.log(`Starting HTTPECHO at ${basePath}`);
+    
+    logger.log(`Starting HTTPECHO at ${basePath}`);
     // logger.log(`Starting Adi-Proxy`)
 
     (async()=>{
