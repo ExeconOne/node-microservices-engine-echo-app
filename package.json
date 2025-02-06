@@ -1,6 +1,6 @@
 {
     "name": "@archimedes/httpecho",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Echo Service",
     "main": "index.mjs",
     "type": "module",
@@ -13,6 +13,6 @@
     "license": "ISC",
     "dependencies": {},
     "devDependencies": {
-      "archiver": "^5.3.0"
-  }
+        "archiver": "^5.3.0"
+    }
 }
